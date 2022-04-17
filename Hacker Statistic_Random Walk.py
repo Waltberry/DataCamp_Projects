@@ -1,4 +1,7 @@
 # numpy and matplotlib imported, seed set
+import numpy as np
+import matplotlib.pyplot as plt
+np.random.seed(123)  # set arbitrarily 
 
 # Simulate random walk 500 times
 all_walks = []
